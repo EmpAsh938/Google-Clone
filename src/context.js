@@ -4,7 +4,7 @@ const AppContext = createContext();
 
 const url = "https://www.googleapis.com/customsearch/v1";
 const accessKey = process.env.REACT_APP_ACCESS_KEY;
-const searchKey = process.env.REACT_APP_SEARCH_KEY;
+const searchKey = "7b443b67ed3bf1b8d";
 
 const AppProvider = ({ children }) => {
   const [term, setTerm] = useState("");
