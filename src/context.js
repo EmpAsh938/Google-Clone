@@ -3,7 +3,7 @@ import { createContext, useContext, useEffect, useState } from "react";
 const AppContext = createContext();
 
 const url = "https://www.googleapis.com/customsearch/v1";
-const accessKey = process.env.REACT_APP_ACCESS_KEY;
+const accessKey = "AIzaSyBcIyTr7kN4P7SkjlE3Jd1B3b_oL1FxTns";
 const searchKey = "7b443b67ed3bf1b8d";
 
 const AppProvider = ({ children }) => {
